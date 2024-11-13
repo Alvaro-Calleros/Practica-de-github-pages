@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a23; 
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(10, 10, 35, 0.8));
+}
+
+h1 {
+    font-size: 3em;                   
+    color: #f5cc5c; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;          
+    border: 2px solid #FFBF00; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 10px 20px;              
+    border-radius: 25px;             
+    margin: 20px auto;               
+    max-width: 800px;                
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;              
+    border-radius: 15px;             
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 191, 0, 0.5); 
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%; 
+    height: auto;   
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    height: 600px; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; 
+    color: #fff;
+}
